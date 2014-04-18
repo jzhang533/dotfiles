@@ -9,5 +9,5 @@ termcapinfo vt100 dl=5\E[M
 # Hardstatus (update xterm title)
 hardstatus string "SCREEN @ %H: %-n - %t"
 
-caption always "%{bc}%C | %M %d | %H%{+u wb} %L=%-Lw%45>%{bw}%n%f* %t%{-}%+Lw%-0<"
+caption always "%{bc}%c | %m-%d %D | %H%{+u wb} %L=%-Lw%45>%{bw}%n%f* %t%{-}%+Lw%-0<"
 
